@@ -1,0 +1,15 @@
+.julia/        
+*.jl.cov       
+*.jl.*.cov
+*.ji           
+
+# Editor/OS-specific
+.vscode/
+.idea/
+*.DS_Store
+*.log
+*.bak
+*.swp
+
+# Results/output directories
+*/__pycache__/
