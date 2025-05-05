@@ -5,6 +5,7 @@ include("../env/activate_env.jl")
 using Random                      # For random number generation
 using Distributions               # To use probability distributions like Normal()
 using Lux                         # Lightweight neural network library
+using LuxCUDA
 using Zygote                      # AD backend for gradients (used with Lux)
 using Optimisers                  # For optimization algorithms like Adam
 using Random, Statistics, Printf  # Additional useful stdlibs
